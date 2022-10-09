@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children:  [
-            const Text("You Have Clicked The Button",style: TextStyle(fontSize: 32),textAlign: TextAlign.center,),
+            const Text("You Have Clicked The Buttons",style: TextStyle(fontSize: 32),textAlign: TextAlign.center,),
             Obx(() => Text(_controller.counter.toString(),
               style: const TextStyle(fontSize: 32),),),
           ],
