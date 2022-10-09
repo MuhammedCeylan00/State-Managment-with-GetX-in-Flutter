@@ -57,24 +57,24 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: (){
             _controller.increase();
             print(_controller.counter);
-          }, child: Icon(Icons.add),),
+          }, child: const Icon(Icons.add),),
           FloatingActionButton(
             heroTag: "2",
             onPressed: (){
             _controller.decrease();
             print(_controller.counter);
-          },child: Icon(Icons.remove),),
+          },child: const Icon(Icons.remove),),
           FloatingActionButton(
             heroTag: "3",
             onPressed: (){
             Get.changeTheme(Get.isDarkMode ? ThemeData.light() : ThemeData.dark());
-          },child: Icon(Icons.change_circle),),
+          },child: const Icon(Icons.change_circle),),
           FloatingActionButton(
             heroTag: "4",
             onPressed: (){
             Get.to(NewPage());
           },
-          child: Icon(Icons.new_label_sharp),
+          child: const Icon(Icons.new_label_sharp),
           )
         ],
       ),
